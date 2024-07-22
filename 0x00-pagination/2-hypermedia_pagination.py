@@ -89,8 +89,7 @@ class Server:
         else:
             prev_page = page - 1
 
-        return {
-        		'page_size': len(data),
+        return {'page_size': len(data),
                 'page': page,
                 'data': data,
                 'next_page': next_page,
